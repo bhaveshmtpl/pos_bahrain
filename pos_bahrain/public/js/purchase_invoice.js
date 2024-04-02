@@ -42,7 +42,7 @@ frappe.ui.form.on('Purchase Invoice', {
           "filters": {
             'item_code': d.item_code,
             'warehouse':d.warehouse,
-            'posting_date':frm.doc.posting_date
+            // 'posting_date':frm.doc.posting_date
           }
           
         }
@@ -67,7 +67,7 @@ frappe.ui.form.on('Purchase Invoice', {
           "filters": {
             'item_code': d.item_code,
             'warehouse':d.warehouse,
-            'posting_date':frm.doc.posting_date
+            // 'posting_date':frm.doc.posting_date
           }
           
         }
